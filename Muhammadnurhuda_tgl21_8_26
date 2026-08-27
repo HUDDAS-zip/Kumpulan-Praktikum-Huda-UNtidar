@@ -1,0 +1,6 @@
+print ('\t\t\t\N{sparkles} Muhammad Nur Huda') # NAME 
+print ('\t\t\t\N{sparkles} 605060060') # NIM
+print ('\t\t\t\N{sparkles} magelang 2007 25 12') # ttl 
+print('\t\t\t\N{sparkles} Banyurojo Mertoyudan')  # AKAMSI
+print ('\t\t\t\N{sparkles} Laki Laki\U0001F600') # Jenis kelamin
+print ('\t\t\t\N{sparkles} drawing reading writing') # hobby
