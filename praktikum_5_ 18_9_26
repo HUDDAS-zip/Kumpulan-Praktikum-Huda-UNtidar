@@ -1,0 +1,31 @@
+#test
+#Buat program yang menampilkan bilangan ganjil dan genap dari 1 sampai 50 menggunakan perulangan perulangan
+
+print ("hai")
+
+a= 1
+while a <= 50:
+    if a % 2 == 0:
+        print (a,"genap")
+    else:
+        print (a,"ganjil")
+    a = a + 1
+
+#Buat program yang menampilkan semua bilangan prima antara 1 sampai 100 menggunakan perulangan! 
+
+b = 1
+
+while b <= 100:
+    jumlah_pembagi = 0
+    
+    # Periksa berapa banyak angka yang habis membagi b
+    for i in range(1, b + 1):
+        if b % i == 0:
+            jumlah_pembagi += 1
+    if jumlah_pembagi == 2:
+        print(f"bilangan prima = {b}")
+    else:
+        print(f"bilangan non prima = {b}")
+    b += 1
+
+print("selesai")
