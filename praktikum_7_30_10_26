@@ -1,0 +1,55 @@
+#test
+
+# dataAngka= ['a', 'b', 'c', 'd', 'e']
+# dataAngka.append('budaya')
+# dataAngka.remove('a')
+# print(dataAngka)
+
+print("soalan")
+kendaraan = ['mobil', 'motor', 'sepeda', 'bus',]
+kendaraan.append('truk')
+kendaraan.insert(1,'becak')
+kendaraan.pop()
+kendaraan[2] = 'skuter'
+
+print(kendaraan)
+kendaraan= len(kendaraan)
+print (f"Jumlah kendaraan: {kendaraan}")
+
+print("\n")
+
+angka = [75, 80, 90, 75, 85, 100, 65]
+print(angka)
+indexAngka = angka.index(100)
+print(f"Index 100: {indexAngka}")
+countAngka = angka.count(75)
+print(f"nyak siswa mendapat skor 75 adalah:{countAngka}")
+print("lalu urutkan ke yang kecil dan besar")
+angkaB =[75, 80, 90, 75, 85, 100, 65]
+angkaB.sort ()
+print (angkaB)
+print('balikkan urutan list dari besar ke kecil')
+angkaB.reverse()
+print(angkaB)
+
+print("\n")
+
+menu_utama = ["Nasi Goreng", "Mie Ayam"] 
+menu_tambahan = ["Kerupuk", "Es Teh"] 
+print (menu_utama)
+print(menu_tambahan)
+
+List_menuKeduanya=[menu_utama,menu_tambahan]
+
+print(f'hasil dari keduanya adalah: {List_menuKeduanya}')
+
+print('\n')
+
+data_barang = [["Buku", 5000], ["Pensil", 2000], ["Penggaris", 3000]]
+
+print (data_barang)
+print (f'harga dari pensil adalah: {data_barang [1] [1]}')
+
+print ('\n')
+for barang in data_barang:
+    print(f"Nama: {barang[0]}, Harga: {barang[1]}")
