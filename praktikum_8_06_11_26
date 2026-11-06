@@ -1,0 +1,68 @@
+#hai
+
+# mahasiswa= ('Muhammad Nur Huda', '2605060060', 'Teknologi Informasi')
+# print(mahasiswa[1])
+# # mahasiswa[2] = "teknologi informasi"
+
+# dataSet = {10, 4, 3, 2, 4, 10, 7, 5}
+# print (dataSet)
+
+
+# data_dict = { 
+#     "cup":"yusup surucup",
+#     "pet":"ripet saripet",
+#     "ndo":"brando batubara",
+# }
+
+# KEY = "cup"
+
+# CHECKKEY = KEY in data_dict
+# print(f"apakah '{KEY}' ada di data_dict  {CHECKKEY}")
+# print(data_dict.get('cup')) 
+# print(data_dict.get('pace','key tidak ditemukan')) 
+
+# # panjang dictionary 
+# # LENDICT = len(data_dict) 
+# # print(f"panjang dictionary: {LENDICT}")
+# # print (data_dict["cup"])
+
+# data_dict.update({'cup':'ucup surucup'}) 
+# print(data_dict)
+# data_dict.update({'iwak':'iwak tempe'})
+# print(data_dict)
+
+# print("\n")
+# dataMahasewa = {
+#     "nim": "240101",
+#     "nama": 'Budi Santoso',
+#     'prodi': 'Teknologi informasi'
+# }
+
+# dataMahasewa.update ({"prodi": "sastra mesin"})
+# dataMahasewa.update ({"angkatan":"2020"})
+# print (dataMahasewa)
+
+# del dataMahasewa ["nim"]
+# print (dataMahasewa)
+
+keranjang = {
+    "apel": "5000",
+    "pisang":"3000",
+    "jeruk":"7000",
+    "anggur": "15000",
+}
+
+
+
+for key,value in keranjang.items():
+    print(f"harga {key}:{value}")
+
+totalBelanja = sum(int(value)for value in keranjang.values())
+print(f"total belanja anda = {totalBelanja}")
+
+# a = keranjang.dict()
+
+# # print (keys)
+
+# for a in keranjang .items():
+#     print (keranjang)
